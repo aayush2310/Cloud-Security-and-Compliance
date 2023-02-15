@@ -1,0 +1,50 @@
+Cloud involves numerous complicated tasks such as:-
+1)Understanding hardware requirements
+2)Buying required hardware
+3)Setting up the infrastructure
+4)Configuring the systems
+5)Managing the systems
+
+Before cloud computing was available deploying an application was a massive task.We use cloud to deploy our application.Before cloud computing an organization was required
+to invest in a data center to procure some specific hardwares like servers and set up the application on those servers.So we needed to preplan things.Procurement of data
+centers were time consuming and had certain limits.
+
+Cloud computing simply removes all the roadblocks you come across when u need access to some extra computing resources.To put it simply,cloud computing refers to the 
+delivery of computing services over a network to a remote customer.
+
+Cloud computing also offers several advantages such as :-
+1)On demand 
+2)scalable
+3)elasticity
+4)Broad network access
+5)Measured Services
+6)Multi-Tenancy
+7)Resource Pooling
+
+Anyone can access cloud computing services anytime they need to
+Before cloud computing,anyone in need of computation resources had to buy these resources and configure them which took time
+
+Cloud computing allows you to increase the capacity of resources and services quite easily
+This can be done by either horizontal scaling or vertical scaling.In horizontal scaling we add more servers to our pool(cluster) of servers
+In vertical scaling we add more resources to our existing servers
+Vertical scaling is all about adding extra memory or adding extra CPU power.
+
+Cloud computing services are available to be accessed anywhere using the internet.You do not need to be on premise network to access these services.(Elastic)
+You can either scale up or down depending upon the demand.When we talk about scaling,we talk about adding more processing and adding either vertical or horizontal 
+scaling.In vertical scaling we talk about adding more capacity to the existing system/server.
+
+Elasticity refers to the property that if the demand increases then you may either scale up the resources or vice-versa.
+In scalability we talk about only scaling up and not scaling down but in elasticity we talk about both.
+
+Cloud computing services are available to be accessed anywhere using the internet.You do not need to be on a special on premise network to access these services.
+
+Cloud computing roles:-
+1)Provider
+2)Customer
+3)Partner
+4)Broker
+
+Provider offers cloud computing services for sale to third parties
+Customer purchase cloud computing services from one or more provider
+Partners are third party companies that offer products and services that interact with the services offered by cloud service providers eg-Service Monitoring,etc.
+Broker manages the cloud services and negotiates relationships between cloud providers and cloud customers.
