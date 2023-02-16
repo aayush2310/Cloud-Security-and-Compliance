@@ -48,3 +48,32 @@ Provider offers cloud computing services for sale to third parties
 Customer purchase cloud computing services from one or more provider
 Partners are third party companies that offer products and services that interact with the services offered by cloud service providers eg-Service Monitoring,etc.
 Broker manages the cloud services and negotiates relationships between cloud providers and cloud customers.
+To understand cloud security what is most important is that we understand basic building blocks of cloud computing.These building blocks are nothing but the infrastructure
+services that make up the various cloud computing platforms.
+These building blocks are:-
+1)Compute service
+2)Storage service
+3)Networing service
+4)Databases service
+5)Orchestration service
+
+Compute services refer to creation,management and usage of virtual servers which we then use to perform computation tasks.
+These servers can then be used by users to offload some resource intensive taks such as calculations or application deployment etc. eg-AWS EC2-If i have set up a 
+dedicated web server on Amazon AWS EC2 then it is an example of compute service.
+
+In cloud computing storage is broken into 2 categories:Block and Object
+First one is block storage in which we get a chunk of storage space allocated to us which is then partitioned into drives and managed by operating system eg:-AWS Elastic
+Block Store
+Second one is Object Storage which abstracts the details file storage and management,All these details are handeled by our cloud service provider,all we have to do is to
+upload and access files.eg:-AWS S3
+
+In cloud computing networks allows users to connect several systems together in cloud.
+Networks in cloud are highly virtualised to provide high degree of flexibility in designing their networks to suit their own unique buisness requirements.
+
+25:10
+
+
+
+
+
+
