@@ -70,8 +70,61 @@ upload and access files.eg:-AWS S3
 In cloud computing networks allows users to connect several systems together in cloud.
 Networks in cloud are highly virtualised to provide high degree of flexibility in designing their networks to suit their own unique buisness requirements.
 
-25:10
+In cloud computing everything is virtualised from storage to networking.
 
+Databases:-In cloud computing users may choose to either build and manage their own database servers on top of existing infrastructure provided by cloud service provider.
+However,it is more practical to use a managed database service in which you specify your preferences,eg-database vendor,server capacity,version,etc,eg-AWS RDS
+Managed databases support various kinds of databases which make them more flexible than self managed database servers.
+RDS-Relational database service
+
+Orchestration-spinning up and managing cloud computing resources manually can get extremely difficult.Cloud orchestration allows us to create automated workflows for
+creating and managing cloud environments.
+
+Using cloud orchestration we can quickly and easily create cloud resources,shift operations between environments and perform various other administrative tasks.
+eg-lets say you have set up a datawarehouse cluster.Now the thing is running an Azure Datawarehouse 24/7 is going to cost your organization a lot.Your buisness idea
+is that your Azure datawarehouse should run for 12 buisness hours only.
+Azure Synapse Data Warehouse Cluster is a PAAS service.
+-Platform as a service
+So here can u set up alerts and by doing that is there a way by which u can start and stop your azure resources and schedule jobs at a given time.
+You cannot have a prom time entry for a PAAS service but you can use something called Azure Automation to schedule administrative task such as starting and stopping
+a PAAS service.So by doing that you do not need to login manually everytime and start and stop your synapse data warehouse cluster.You will just schedule this thing
+via the Azure Automation workflow and this can be managed seemlessly.
+
+It is imp. to note that these are not the only services offered by cloud computing platforms.However all other services offered by cloud computing are usually built on
+top of these services.
+
+
+CLOUD REFERENCE ARCHITECTURE
+
+The International Organization for Standardization publishes a cloud reference architecture in their document,ISO 17789
+This document lays out a common terminology framework that assists different parties in communicating about their roles and responsibilities.
+There are several activities which are performed in cloud computing,which are broken down into 4 layers ,plus a set of functions which spans accross the layers.These are:-
+1)User Layer
+2)Access Layer
+3)Service Layer
+4)Resource Layer
+5)Multi Layer Functions
+
+The user layer is the user interface through which a customer interacts with cloud services,performs customer related administrative activities,and monitors cloud services
+eg:-Somebody logs into portal.azure.com and tries to access based on their defined roles lets say they have read access on some resource,they should be able to access
+that resource.Lets say somebody has access to azure security center which basically,which gives you a bluprint of all your security activities,from a security standpoint
+it tells you how compliant are you with the various standards.Every user is given some sort of access so what they do is that they log into the portal,from there they 
+will start accessing those respective resources.
+
+The access layer provides a common interface for both manual and automated access to capabilities available in the services layer.For instance somebody goes to portal.
+azure.com and lets assume that we have set up a web server and the requirement is that i need to access this web server but i need to do it in a secure way.Now my web
+server has a private IP address.I want everybody to be accessing my web server using my private IP address.Now the catch is if I go to the browser and type in this 
+private IP address then it will not be visible to me.So the question is how do i make by users access this private IP address.
+I will go to portal.azure.com and set up Virtual Machines--->Bastion Bost Service--->My user will remote desktop to a particular machine.and then the user can from there
+go to portal.azure.com and then can access any specific application.
+
+The service layer contains the implementation of the services provided by a cloud service provider.The service layer contains and controls the software components that 
+implement the services.
+
+The resource layer is where the resources reside.These includes hardware such as servers,networking switches and routers,storage devices and software that runs on the 
+hardware such as host operating systems,hypervisors,etc.
+
+34:50
 
 
 
